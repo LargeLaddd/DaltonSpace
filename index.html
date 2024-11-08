@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daltonspace Scrapbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Daltonspace</h1>
+        <button id="saveButton">Save Scrapbook</button>
+    </header>
+    <div id="workspace">
+        <textarea id="textEditor" placeholder="Write your text here..."></textarea>
+        <div id="dropZone" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)">
+            <p>Drag and drop images/videos here</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
